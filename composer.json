@@ -11,10 +11,12 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
+        "fruitcake/laravel-debugbar": "^4.4",
         "laravel/boost": "^2.2",
         "laravel/pail": "^1.2.2",
         "laravel/pint": "^1.24",
@@ -22,7 +24,8 @@
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
         "pestphp/pest": "^3.8",
-        "pestphp/pest-plugin-laravel": "^3.2"
+        "pestphp/pest-plugin-laravel": "^3.2",
+        "yasin_tgh/laravel-postman": "^1.4"
     },
     "autoload": {
         "psr-4": {
